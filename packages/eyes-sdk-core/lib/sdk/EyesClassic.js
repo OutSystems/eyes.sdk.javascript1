@@ -54,7 +54,7 @@ class EyesClassic extends EyesCore {
    * @param {CheckSettings<TElement, TSelector>} implementations.CheckSettings - specialized version of {@link DriverCheckSettings}
    * @return {new (...args: ConstructorParameters<typeof EyesClassic>) => EyesClassic<TDriver, TElement, TSelector>} specialized version of this class
    */
-  static specialize({agentId, spec}) {
+  static specialize({ agentId, spec }) {
     return class extends EyesClassic {
       static get spec() {
         return spec
@@ -645,8 +645,10 @@ class EyesClassic extends EyesCore {
       this._configuration.getStitchOverlap(),
       this._imageProvider,
     )
-    const positionProvider = this._positionProviderHandler.get()
-
+    let positionProvider = this._positionProviderHandler.get()
+    if (Object.keys(positionProvider).length === 0) {
+      positionProvider = this._createPositionProvider(await this._context.getScrollRootElement(),)
+    }
     await positionProvider.markScrollRootElement()
 
     let scrollRootElement = positionProvider.scrollRootElement
