@@ -28,7 +28,7 @@
   "repository": "https://github.com/applitools/eyes.sdk.javascript1",
   "dependencies": {
     "@applitools/eyes-sdk-core": "12.17.4",
-    "@applitools/visual-grid-client": "15.8.2"
+    "@applitools/visual-grid-client": "15.8.33"
   },
   "peerDependencies": {
     "webdriverio": "~4.14.4"
