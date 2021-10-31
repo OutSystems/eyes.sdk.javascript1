@@ -34,7 +34,7 @@
   "main": "./bundle.js",
   "dependencies": {
     "eyes.utils": "0.0.29",
-    "eyes.sdk": "0.0.71"
+    "eyes.sdk": "0.0.73"
   },
   "devDependencies": {
     "@applitools/sdk-release-kit": "0.2.2",
