@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@applitools/functional-commons": "1.6.0",
-    "@applitools/sdk-coverage-tests": "2.3.11",
+    "@applitools/sdk-coverage-tests": "3.0.0",
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
     "chalk": "3.0.0",
@@ -53,7 +53,7 @@
     "handlebars": "4.7.6",
     "morgan": "1.10.0",
     "ncp": "2.0.0",
-    "node-fetch": "2.6.1",
+    "node-fetch": "2.6.7",
     "prettier": "1.18.2",
     "yargs": "15.3.1"
   },
