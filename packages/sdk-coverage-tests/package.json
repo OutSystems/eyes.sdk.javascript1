@@ -30,7 +30,7 @@
     "url": "https://github.com/applitools/eyes.sdk.javascript1/issues"
   },
   "dependencies": {
-    "@azure/storage-blob": "12.2.0-preview.1",
+    "@azure/storage-blob": "12.13.0",
     "@babel/core": "7.12.10",
     "axios": "0.20.0",
     "chai": "4.2.0",
@@ -38,7 +38,7 @@
     "chalk": "4.1.1",
     "handlebars": "4.7.6",
     "micromatch": "4.0.2",
-    "node-fetch": "2.6.1",
+    "node-fetch": "2.6.7",
     "sync-fetch": "0.3.0",
     "xml-js": "1.6.11",
     "yargs": "16.0.3"
